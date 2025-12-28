@@ -10,25 +10,25 @@ const Diplomas = () => {
       name: 'MBA Data Science',
       institution: 'USP/Esalq',
       year: '2025',
-      file: '/diplomas/data_science.pdf'
+      file: `${import.meta.env.BASE_URL}/diplomas/data_science.pdf`
     },
     {
       name: 'Diploma de Engenharia Agronômica',
       institution: 'Unisalesiano',
       year: '2022',
-      file: '/diplomas/Eng_Agronomica.pdf'
+      file: `${import.meta.env.BASE_URL}/diplomas/Eng_Agronomica.pdf`
     },
     {
       name: 'Diploma de Técnico em Edificações',
       institution: 'Centro Paula Souza',
       year: '2017',
-      file: '/diplomas/Edificacoes.pdf'
+      file: `${import.meta.env.BASE_URL}/diplomas/Edificacoes.pdf`
     },
     {
       name: 'Histórico Ensino Médio',
       institution: 'Elzira Garbino Pagani',
       year: '2017',
-      file: '/diplomas/Historico_Ensino_Medio.pdf'
+      file: `${import.meta.env.BASE_URL}/diplomas/Historico_Ensino_Medio.pdf`
     },
   ];
 
